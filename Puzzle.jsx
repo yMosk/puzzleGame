@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import { JigsawPuzzle } from "react-jigsaw-puzzle/lib";
 import "react-jigsaw-puzzle/lib/jigsaw-puzzle.css";
-
 import { CloseButton } from "atomic/atoms/containers";
 import useWindowDimensions from "hooks/useWindowDimensions";
 import Dropdown from "primitives/DropDown/Dropdown";
